@@ -281,7 +281,7 @@ Training for more epochs would allow the network to reach a higher accuracy base
 Clone the repository:
 
 ```
-git clone <repository_url>
+git clone <(https://github.com/Nam211/Tredence_Analytics.git)>
 cd project
 ```
 
