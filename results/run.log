@@ -1,0 +1,10 @@
+Training run logs
+
+Lambda = 1e-05
+Epoch 10 Sparsity 64.95%
+
+Lambda = 5e-05
+Epoch 10 Sparsity 94.45%
+
+Lambda = 2e-04
+Epoch 10 Sparsity 99.18%

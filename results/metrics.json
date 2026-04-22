@@ -1,0 +1,30 @@
+{
+  "config": {
+    "train_subset_total": 5000,
+    "epochs": 10,
+    "lambdas": [
+      1e-05,
+      5e-05,
+      0.0002
+    ],
+    "seed": 42,
+    "device": "cpu"
+  },
+  "runs": [
+    {
+      "lambda": 1e-05,
+      "test_accuracy": 43.7,
+      "sparsity_pct": 64.94688391685486
+    },
+    {
+      "lambda": 5e-05,
+      "test_accuracy": 40.69,
+      "sparsity_pct": 94.44979429244995
+    },
+    {
+      "lambda": 0.0002,
+      "test_accuracy": 33.01,
+      "sparsity_pct": 99.17714595794678
+    }
+  ]
+}
